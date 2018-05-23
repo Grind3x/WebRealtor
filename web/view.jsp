@@ -45,7 +45,7 @@
   </div>
 
   <header class="w3-container w3-theme" style="padding:16px">
-    <h2>Home page</h2>
+    <h2>View list of the apartments</h2>
   </header>
 
   <div class="w3-container" style="padding:32px">

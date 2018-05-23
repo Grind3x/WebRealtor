@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 <html>
-<title>Home page</title>
+<title>Result</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
@@ -62,7 +62,7 @@
     </div>
 
     <header class="w3-container w3-theme" style="padding:16px">
-        <h2>Home page</h2>
+        <h2>Apartments</h2>
     </header>
 
     <div class="w3-container" style="padding:32px">

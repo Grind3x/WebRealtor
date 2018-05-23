@@ -39,7 +39,7 @@ public class LoadServlet extends HttpServlet {
         try {
             apartments = Apartments.fromXML(items.get(0).getString());
             loaded = apartments.getApartments().size();
-        } catch (Exception e) {
+        } catch (NullPointerException e) {
         }
 
         HttpSession session = req.getSession(true);

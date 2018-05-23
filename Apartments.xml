@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<apartments>
+    <apartment>
+        <numberOfRooms>2</numberOfRooms>
+        <address>Kyiv, Bulvar Perova, 48/129</address>
+        <floor>5</floor>
+        <cost>37000.0</cost>
+    </apartment>
+    <apartment>
+        <numberOfRooms>1</numberOfRooms>
+        <address>Kyiv, Bulvar Perova, 48/128</address>
+        <floor>5</floor>
+        <cost>30000.0</cost>
+    </apartment>
+    <apartment>
+        <numberOfRooms>3</numberOfRooms>
+        <address>Kyiv, Bulvar Perova, 48/127</address>
+        <floor>5</floor>
+        <cost>48000.0</cost>
+    </apartment>
+    <apartment>
+        <numberOfRooms>3</numberOfRooms>
+        <address>Kyiv, Bulvar Perova, 48/124</address>
+        <floor>4</floor>
+        <cost>52000.0</cost>
+    </apartment>
+</apartments>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebRealtor:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebRealtor_war</output-path>
+    <root id="archive" name="WebRealtor_war.war">
+      <element id="artifact" artifact-name="WebRealtor:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 @XmlRootElement
 public class Apartments {
@@ -122,9 +123,22 @@ public class Apartments {
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             return (Apartments) unmarshaller.unmarshal(new StringReader(xmlString));
         } catch (JAXBException e) {
-            e.printStackTrace();
         }
         return null;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Apartments that = (Apartments) o;
+        return Objects.equals(apartments, that.apartments);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(apartments);
     }
 
     @Override

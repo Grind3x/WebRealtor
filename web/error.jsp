@@ -49,7 +49,7 @@
     </header>
 
     <div class="w3-container" style="padding:32px">
-        <p>You entered incorrect values!</p><br>
+        <p>You entered incorrect data!</p><br>
         <button type="button" onclick="goBack()">Try it again!</button>
     </div>
 
